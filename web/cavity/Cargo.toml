@@ -1,0 +1,15 @@
+[package]
+name = "cavity"
+version = "0.1.0"
+edition = "2021"
+description = "Lid-driven cavity flow (CFD Python Step 11) compiled to WebAssembly"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"

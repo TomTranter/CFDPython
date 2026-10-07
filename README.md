@@ -109,6 +109,10 @@ pip install numpy scipy sympy matplotlib
 
 
 
+## In the browser: Step 11 in Rust and WebAssembly
+
+[`web/`](web/) has an interactive port of Step 11 (lid-driven cavity flow). The solver is written in Rust, compiled to WebAssembly and runs in the browser, with live controls for viscosity, lid speed and grid size. See [`web/README.md`](web/README.md).
+
 ## How to contribute to CFD Python
 
 We accept contributions via pull request—in fact, several users have already submitted pull requests making corrections or small improvements. You can also open an issue if you find a bug, or have a suggestion. 
