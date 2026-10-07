@@ -49,6 +49,7 @@ Timing on one machine, in ms per step with 50 pressure iterations:
 | `main.js` | Rendering, tracer particles and controls |
 | `index.html` | The page |
 | `validate/` | Comparison against the original NumPy code |
+| `HANDOFF.md` | Session notes: decisions, research, the open low-viscosity bug, next steps |
 
 ## Differences from the notebook
 
